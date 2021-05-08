@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+</body>
+<script>
+	let name = {firstName: 'Meena',
+     lastName: 'Sowndhar'};
+
+function printFullName(city) {
+    console.log("Hii I am " + ' ' + this.firstName + ' ' + this.lastName +' '+"from"+' '+ city );
+}
+
+let printMyName = printFullName.bind(name, 'Chennai');
+printMyName();
+</script>
+</html>

@@ -1,0 +1,28 @@
+
+.wrapper{
+
+display: grid;
+grid-template-columns: auto auto auto;
+	grid-gap: 20px;
+	padding: 10px;
+}
+
+.card-section{
+    border: 10px;
+    padding: 10px;
+    border-style: ridge;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    padding:10px;
+
+}
+
+.demo{
+    background-color: rgb(106, 106, 235);
+    color: white;
+    border-radius: 2px;
+}
